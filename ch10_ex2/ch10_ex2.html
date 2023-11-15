@@ -1,54 +1,82 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>09_ex2</title>
-    <style>
-        img {
-            width:350px;
-            height:350px;
-        }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>個人網頁排版</title>
+    <link rel="stylesheet" href="樣式.css">
+  </head>
+  <body>
+    <header>
+      <h1>我的個人網站</h1>
+    </header>
+ <main>
+      <article>
+        <section class="card_1">
+            <h2>About Me</h2>
+            <img src="頭貼.jpg" style="border-radius: 50%; width: 20%;"/>
+            <p></p>
+          <div>
+          <p>
+          <li>姓名:林稔庭</li>
+          <br><li>生日：92/10/14</li></br>
+          <li>星座：天秤座</li>
+          <br><li>興趣：羽球﹑看小說﹑逛街拍照﹑聊天</li></br>
+          <br><li>優點：熱心助人、活潑、同情心</li></br>
+          <br><li>缺點：急性子、缺乏自信</li></br>
+          <br><li>我最愛dtto friends腸太郎，是一個忠實腸粉，身邊的人都知道我有很多腸太郎周邊娃娃跟日常用品，可以見得出來我有多麼瘋狂吧！</li></br>
+          <img src="https://tse1.mm.bing.net/th?id=OIP.9xDfUtKy_b81XoQQG74AowAAAA&pid=Api&P=0&h=180">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.3rtxA1gcl6w21UoiPrxvuwAAAA&pid=Api&P=0&h=180" width="180">
+          <img src="https://tse2.explicit.bing.net/th?id=OIP.nG8PWz8WySOJFaF927TaXwHaHa&pid=Api&P=0&h=180" >
+        </div>
 
-        .txtlayer {
-            color: blue;
-            font-size: 14pt;
-            font-style: italic;
-            position: absolute;
-            top: 250px;
-            left: 100px;
-            width: 200px;
-            z-index: 2;
-        }
-       
-        h2 {
-            background-color: yellow;
-        }
-        p {
-            background-color: lightgray;
-        }
-        
-        div.left, div.right {
-            background-color: orange;
-        }
-        .left {
-            float: left;
-        }
+          </p>
+        </section>
 
-        .right {
-            float: right;
-        }
-    </style>
-</head>
-<body>
-    <img class="left" src="lemon.jpg">
-    <div class="txtlayer">put off till tomorrow what you can do today.</div> 
-    <h2>鹽檸檬食譜</h2>
-    <p>只靠鹽檸檬的調味, 就可以變化出一道道清爽健康的新風味料理。
-       這邊介紹的搭配以西洋料理為主, 不論是以沙拉為主的蔬食料理, 
-       或是醋醃&香煎的海鮮、肉類、義大利麵、各式麵食、麵包、飯食、湯品甚至甜點, 
-       都能做搭配。</p>
-     <hr>
-     <div class="left">上一頁</div>
-     <div class="right">下一頁</div>
-</body>
+        <section>
+            <div class="card_2">
+          <h2>專業技能</h2>
+            <form action="test.aspx" method="get">
+                <p>HTML<span><progress value="60" max="100"></progress></p><br>
+                <p>Java<progress value="50" max="100"></progress></p><br>
+                <p>CSS<progress value="65" max="100"></progress></p><br>
+                <p>Python<progress value="75" max="100"></progress></p><br>
+            </form>
+        </div>
+            <section >
+            <div class="card_3">
+            <h2>個人經歷</h2>
+            <h3>管理學</h3>
+            <img src="照片.jpg" style="width: 30%;"/> 
+            <img src="照片2.jpg" style="width: 30%;"/>
+            <p>
+              管理學的服務課程，我們的服務對象是建國國小的小朋友，學習與小朋友學習交流，並用簡單的scratch程式設計教學<br>
+              基礎障礙關卡，引發小朋友的樂趣，最後很順利的圓滿結束，經過這個服務學習後收穫滿滿。
+           </p>
+            <h3>工作經歷</h3>
+            <img src="照片3.jpg" style="width: 30%;">
+            <p>
+                <span>這是跟系辦大家的合照</span><br>
+                在系辦上班將近一年，一開始進來的時候對很多工作內容都不熟悉，還好主任跟系助人都很好，上班一直都很順利也越來越熟悉，也可以<br>
+                跟系辦的老師越來越要好，也幫助我了增加工作經驗跟人際交流，很開心可以遇到他們，在系辦上班真的很快樂，而且主任很常送我東西吃XD
+
+            
+            </p>
+        </div>
+          </section>
+      </article>
+
+    
+    </main>
+    <div class="clearfix"></div>
+
+    <footer>
+      <h4>Copy rigth @ 2023 RenTing</h4>
+      <h3>聯絡資訊</h3>
+      <a href="https://www.instagram.com/xiizc.u__/"><img src="https://i1.wp.com/globalinfusion.org/wp-content/uploads/2018/01/ig-logo-email.png?ssl=1" width="70" height="70"></a>
+            <a href="https://www.facebook.com/profile.php?id=100008870172535"><img src="https://1.bp.blogspot.com/-E7Q8QGQi8jU/WImcvZPvYQI/AAAAAAAACTw/0Er2C5lpPrkRx_JMFTMU0ifRdjS3e4XJQCLcB/s1600/VEKTOR2BICON7.png" width="75" height="75"></a>
+            <a href="mailto:jean@hotmail.com"><img src="https://tse2.mm.bing.net/th?id=OIP.JjD4-Aqm9Vwvn3ddtcfelgHaEK&pid=Api&P=0&h=180" width="80" height="70"></a>
+    </footer>
+  </body>
 </html>
